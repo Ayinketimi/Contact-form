@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Contact form</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <h1>Contact Us</h1>
+<form>
+    <div style="display:inline-block">
+ <label for="First Name">First Name*</label><br>
+  <input type="text" name="First Name" id="First Name" required="This field is required"/><br><br>
+    </div>
+<div style="display:inline-block">
+  <label for="Last Name">Last Name*</label><br>
+  <input type="text" id="Last Name" required="This field is required"/><br><br>
+    </div>
+
+<div>
+  <label for="Email Address">Email Address*</label><br>
+  <input type="text" id="Email Address" required="This field is required"/><br><br>
+</div>
+<div>
+  <label for="Query Type">Query Type*</label><br><br>
+  <input type="radio" value="General Enquiry" id="General Enquiry" required="Please select a query type"/>
+  <label for="General Enquiry">General Enquiry</label>
+<input type="radio" value="Support Request" id="General Enquiry" required="Please select a query type"/>
+<label for="Support Request">Support Request</label><br><br>
+</div>
+
+  <label for="Message">Message*</label><br>
+  <textarea name="Message" id="Message" rows="4" cols="42" required="This field is required"></textarea><br><br>
+
+  
+
+ <input type="checkbox" name="checkbox" id="checkbox" required="To submit this form, please consent to being contacted">
+ <label for="consent">I consent to being contacted by the team*</label><br><br>
+  
+
+ <input type="Submit" value="Submit" style="background-color: green;color:white" required>
+
+</form>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Banjoko Eniola Ayinke</a>.
+  </div>
+</body>
+</html>
